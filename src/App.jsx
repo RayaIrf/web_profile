@@ -14,12 +14,12 @@ function App() {
   const logingoogle = async () => {
     const data = await signInWithPopup(auth, new GoogleAuthProvider)
     console.log(data)
-    Navigate(`/About/`)
+    Navigate(`/Home/`)
   }
   const loginfacebook = async () => {
     const data = await signInWithPopup(auth, new FacebookAuthProvider())
     console.log(data)
-    Navigate(`/About/`)
+    Navigate(`/Home/`)
   }
 
   return (

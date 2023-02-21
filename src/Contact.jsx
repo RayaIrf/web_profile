@@ -4,7 +4,7 @@ function Contact() {
     return (
         <div className="Contact">
             <Navbar />
-            <h1>sdsds</h1>
+            <h1>082136248195</h1>
         </div>
     )
 }
