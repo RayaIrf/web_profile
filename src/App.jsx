@@ -30,11 +30,11 @@ function App() {
             <h2 className='font-bold text-2xl text-[#002074]'>Login</h2>
             <p className='text-sm mt-4 text-[#002074]'>Silahkan Login</p>
             <form action="" className='flex flex-col gap-4'>
-              <input className='p-2 mt-8 rounded-xl border' type="text" name='email' placeholder='Email' />
+              <input className='p-2 mt-8 rounded-xl border' type="text" name='email' placeholder='Email(Masih Belum:)' />
               <div className='relative'>
-                <input className='p-2 rounded-xl border w-full' type="password" name='password' placeholder='Password' />
+                <input className='p-2 rounded-xl border w-full' type="password" name='password' placeholder='Password(Masih Belum:)' />
               </div>
-              <button className='bg-[#002074] rounded-xl text-white py-2 hover:scale-105 duration-300'>Login</button>
+              <button className='bg-[#002074] rounded-xl text-white py-2 hover:scale-105 duration-300'>Login Bisanya Goggle</button>
             </form>
             <div className='mt-10 grid grid-cols-3 items-center text-gray-400'>
               <hr className='border-gray-400' />
@@ -44,7 +44,7 @@ function App() {
             <button onClick={logingoogle} className='bg-white border py-2 w-full rounded-xl mt-5 flex justify-center items-center text-sm hover:scale-105 duration-300'>
               <img className='mr-3' width="25px" src={logogoogle} alt="" /> Login With Google</button>
             <button onClick={loginfacebook} className='bg-white border py-2 w-full rounded-xl mt-5 flex justify-center items-center text-sm hover:scale-105 duration-300'>
-              <img className='mr-3' width="25px" src={logofacebook} alt="" />Login With Facebook</button>
+              <img className='mr-3' width="25px" src={logofacebook} alt="" />Login With Facebook Error</button>
           </div>
           <div className='sm:block hidden w-1/2'>
             <img src={img} className='rounded-2xl' alt="" />
